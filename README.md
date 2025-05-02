@@ -23,34 +23,29 @@ Este repositorio contiene el código fuente del frontend de la **Red Social del 
 ## 🏗️ Estructura del Proyecto
 
 ```
-📦 red-social-conocimiento-frontend
- ┣ 📂 components
- ┃ ┣ 📂 auth
- ┃ ┣ 📂 content
- ┃ ┣ 📂 profile
- ┃ ┗ 📂 shared
- ┣ 📂 pages
- ┣ 📂 public
- ┣ 📂 store
- ┣ 📂 assets
- ┣ 📂 layouts
- ┣ 📂 composables
- ┣ 📂 tests
- ┣ 📜 nuxt.config.ts
- ┗ 📜 package.json
+📦 Social_Front/
+ ┣ 📂 .nuxt/
+ ┣ 📂 assets/
+ ┃ ┣ 📂 css/
+ ┃ ┣ 📂 images/
+ ┃ ┗ 📂 fonts/
+ ┣ 📂 components/
+ ┃ ┣ 📂 auth/
+ ┃ ┣ 📂 shared/
+ ┃ ┣ 📂 content/
+ ┃ ┗ 📂 profile/
+ ┣ 📂 composables/
+ ┣ 📂 layouts/
+ ┣ 📂 pages/
+ ┃ ┣ 📂 profile/
+ ┃ ┗ 📂 content/
+ ┣ 📂 public/
+ ┣ 📂 store/
+ ┗ 📂 tests/
+   ┣ 📂 unit/
+    ┗ 📂 e2e/
 ```
 
----
-
-## 🚀 Funcionalidades Implementadas
-
-- ✅ **Sistema de Autenticación:** Registro, inicio de sesión y recuperación de contraseñas
-- ✅ **Perfiles de Usuario:** Visualización y edición de perfiles académicos
-- ✅ **Explorador de Contenidos:** Interfaz para navegar recursos educativos con filtros
-- ✅ **Editor de Recursos:** Herramientas para crear y editar contenidos académicos
-- ✅ **Interacciones Sociales:** Comentarios, valoraciones y sistema de seguimiento
-- ✅ **Calendario de Eventos:** Visualización e inscripción a eventos académicos
-- ✅ **Panel de Notificaciones:** Centro de alertas para mantener al usuario informado
 
 ---
 
@@ -133,11 +128,6 @@ Seguimos la metodología **Scrum** con sprints de dos semanas:
 
 ---
 
-## 📱 Capturas de Pantalla
-
-*[Se añadirán capturas de pantalla conforme avance el desarrollo]*
-
----
 
 ## 🔗 Enlaces Relacionados
 
